@@ -14,6 +14,7 @@ def fizz_buzz2(number):
  elif (number > 10):
    
      identical = str(number)[0]
+     print(identical)
      if (str(number).count(identical)==len(str(number))):
        dlx = ' deluxe'  
      
@@ -30,4 +31,4 @@ def fizz_buzz2(number):
 
    
 if __name__ == '__main__':
-   print(fizz_buzz2(555))
+   print(fizz_buzz2(11))
