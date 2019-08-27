@@ -6,4 +6,6 @@ def fizz_buzz(number):
           return 'fizz'
     elif number%5 == 0 or str(number).__contains__('5'):
           return 'buzz'  
+    else:
+          return number
 
