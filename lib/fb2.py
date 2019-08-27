@@ -14,7 +14,7 @@ def fizz_buzz2(number):
  elif (number > 10):
    
      identical = str(number)[0]
-     if (str(number).count(identical)==len(str(n))):
+     if (str(number).count(identical)==len(str(number))):
        dlx = ' deluxe'  
      
        if (number%3 == 0 and number%5 == 0) or (str(number).__contains__('3') and str(number).__contains__('5')): 
