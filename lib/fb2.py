@@ -1,6 +1,6 @@
 
 def fizz_buzz2(number):
-    
+ if (n <=10 )   
    if (number%3 == 0 and number%5 == 0) or (str(number).__contains__('3') and str(number).__contains__('5')): 
           return 'fizz buzz'
    if (number%3 == 0 and str(number).__contains__('5')) or (number%5 == 0 and str(number).__contains__('3')): 
@@ -9,13 +9,10 @@ def fizz_buzz2(number):
           return 'fizz'
    elif number%5 == 0 or str(number).__contains__('5'):
           return 'buzz'   
-   
-   #if str(number).__contains__('3'):
-  #       return 'fizz'
-   #elif str(number).__contains__('3') and str(number).__contains__('5'):   
-    #      return 'fizz buzz'
    else:
         return number
-    
+ elif (n > 10)
+
+   
 if __name__ == '__main__':
    print(fizz_buzz2(546))
