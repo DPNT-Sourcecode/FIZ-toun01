@@ -16,7 +16,7 @@ def fizz_buzz2(number):
      #identical = str(number)[0]
      #c = int(identical)
      
-     if (str(number).count(identical)==len(str(number))) and (c % 2 == 1):
+     if ((number%3 == 0 and str(number).__contains__('3')) or (number%5 == 0 and str(number).__contains__('5'))) and (number % 2 == 1):
        dlx = ' fake deluxe'
      elif ((number%3 == 0 and str(number).__contains__('3')) or (number%5 == 0 and str(number).__contains__('5'))):
        dlx = ' deluxe'
@@ -40,4 +40,4 @@ def fizz_buzz2(number):
 
    
 if __name__ == '__main__':
-   print(fizz_buzz2(11))
+   print(fizz_buzz2(811))
