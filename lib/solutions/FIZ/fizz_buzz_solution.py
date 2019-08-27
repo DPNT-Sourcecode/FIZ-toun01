@@ -1,7 +1,7 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
 
- if (number <=10):   
+  if (number <=10):   
     if (number%3 == 0 and number%5 == 0) or (str(number).__contains__('3') and str(number).__contains__('5')): 
            return 'fizz buzz'
     if (number%3 == 0 and str(number).__contains__('5')) or (number%5 == 0 and str(number).__contains__('3')): 
@@ -12,7 +12,7 @@ def fizz_buzz(number):
            return 'buzz'   
     else:
          return number
- elif (number > 10):
+  elif (number > 10):
     
       identical = str(number)[0]
       c = int(identical)
@@ -35,6 +35,6 @@ def fizz_buzz(number):
       elif dlx==' deluxe':
            return 'deluxe'
       elif dlx==' fake deluxe':
-           return 'fake deluxe'
+           return 'fake deluxe' 
       else:
-        return number  
+        return number

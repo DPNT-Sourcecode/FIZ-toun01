@@ -40,4 +40,4 @@ def fizz_buzz2(number):
 
    
 if __name__ == '__main__':
-   print(fizz_buzz2(22))
+   print(fizz_buzz2(11))
