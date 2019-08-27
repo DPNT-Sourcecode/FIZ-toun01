@@ -14,8 +14,13 @@ def fizz_buzz2(number):
  elif (number > 10):
    
      identical = str(number)[0]
-          
-     if (str(number).count(identical)==len(str(number))):
+     c = int(identical)
+     
+     print(c % 2)
+       
+     if (str(number).count(identical)==len(str(number))) and (c % 2 == 1):
+       dlx = ' fake deluxe'
+     elif (str(number).count(identical)==len(str(number))):
        dlx = ' deluxe'
      else:
        dlx = ''
