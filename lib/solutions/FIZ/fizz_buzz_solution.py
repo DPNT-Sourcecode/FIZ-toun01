@@ -15,8 +15,11 @@ def fizz_buzz(number):
  elif (number > 10):
     
       identical = str(number)[0]
-           
-      if (str(number).count(identical)==len(str(number))):
+      c = int(identical)
+      
+      if (str(number).count(identical)==len(str(number))) and (c % 2 == 1):
+        dlx = ' fake deluxe'
+      elif (str(number).count(identical)==len(str(number))):
         dlx = ' deluxe'
       else:
         dlx = ''
@@ -30,7 +33,8 @@ def fizz_buzz(number):
       elif number%5 == 0 or str(number).__contains__('5'):
            return 'buzz'+dlx   
       elif dlx==' deluxe':
-           #dlx=='deluxe'
            return 'deluxe'
+      elif dlx==' fake deluxe':
+           return 'fake deluxe'
       else:
         return number  
