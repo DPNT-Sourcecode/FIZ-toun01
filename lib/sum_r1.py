@@ -11,4 +11,5 @@ def sum_r1():
     return c
 
 if __name__ == '__main__':
-    print(sum_r1())
+    sum_r1()
+    
