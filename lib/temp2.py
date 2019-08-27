@@ -11,6 +11,7 @@ def fizz_buzz(number):
           return 'fizz'
    elif number%5 == 0:
           return 'buzz'   
-   
+   else:
+        return number
 if __name__ == '__main__':
-   print(fizz_buzz(2))
+   print(fizz_buzz(30))
