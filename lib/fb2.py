@@ -7,7 +7,8 @@ def fizz_buzz2(number):
           return 'fizz'
    elif number%5 == 0:
           return 'buzz'   
-   else:
-        return number
+   #else:
+   #     return number
+    
 if __name__ == '__main__':
    print(fizz_buzz(16))
