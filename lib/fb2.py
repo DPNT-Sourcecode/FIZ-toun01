@@ -28,11 +28,13 @@ def fizz_buzz2(number):
           return 'fizz'+dlx
      elif number%5 == 0 or str(number).__contains__('5'):
           return 'buzz'+dlx   
-     elif dlx=='deluxe':
-          return dlx
+     elif dlx==' deluxe':
+          #dlx=='deluxe'
+          return 'deluxe'
      else:
         return number  
 
    
 if __name__ == '__main__':
-   print(fizz_buzz2(11))
+   print(fizz_buzz2(27))
+

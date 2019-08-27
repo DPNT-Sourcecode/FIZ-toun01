@@ -18,7 +18,9 @@ def fizz_buzz(number):
           
      if (str(number).count(identical)==len(str(number))):
        dlx = 'deluxe'  
-     
+     else:
+       dlx = ''
+       
        if (number%3 == 0 and number%5 == 0) or (str(number).__contains__('3') and str(number).__contains__('5')): 
           return 'fizz buzz'+' '+dlx
        if (number%3 == 0 and str(number).__contains__('5')) or (number%5 == 0 and str(number).__contains__('3')): 
