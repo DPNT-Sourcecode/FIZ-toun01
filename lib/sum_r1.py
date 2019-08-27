@@ -10,5 +10,5 @@ def sum_r1():
     c = sum(params)
     return c
 
-if __name__ == '__main__'
-    sum_r1()
+if __name__ == '__main__':
+    print(sum_r1())
