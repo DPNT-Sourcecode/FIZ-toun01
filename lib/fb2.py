@@ -30,9 +30,10 @@ def fizz_buzz2(number):
        elif number%5 == 0 or str(number).__contains__('5'):
           return 'buzz'+dlx   
        else:
-          return number  
+          return dlx
+     else:
+        return number  
 
    
 if __name__ == '__main__':
-   print(fizz_buzz2(11))
-
+   print(fizz_buzz2(55))
