@@ -2,10 +2,10 @@
 def compute(x, y):
     raise NotImplementedError()
     
-def SUM(x,y):
-    params = [x,y]
+def SUM():
+    params = [2,2]
     c = sum(params)
     return c
 
 if __name__ == '__main__':
-    SUM(2,2)
+    SUM()
